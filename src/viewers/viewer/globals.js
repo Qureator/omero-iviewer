@@ -108,14 +108,14 @@ export const PREFIXED_URIS = [
  * @const
  * @type {number}
  */
-export const UNTILED_RETRIEVAL_LIMIT = 20480 * 20480; // 4000000;
+export const UNTILED_RETRIEVAL_LIMIT = 2048 * 2048; // 4000000;
 
 /**
  * the default tile dimensions
  * @const
  * @type {Object}
  */
-export const DEFAULT_TILE_DIMS = {"width": 512, "height": 512};
+export const DEFAULT_TILE_DIMS = {"width": 2048, "height": 2048};
 
 /**
  * Enum for RequestParams.
